@@ -7,19 +7,19 @@ Shine-Wash
 3. M Fathur Rahman Ismail as UI Designer
 
 # Stack
-Frontend   : Html, Css
-Backend    : PHP
-UI/UX      : Figma
+1. Frontend   : Html, Css
+2. Backend    : PHP
+3. UI/UX      : Figma
 
 # Ruang Lingkup
-Jenis Aplikasi                : Website
-Alasan memilih aplikasi       : Dapat digunakan secara umum
-Sistem Operasi                : Windows 11
-Text Editor                   : VSCode
-Bahasa Pemrograman            : PHP
-DBMS                          : MySQL
-Web Server                    : XAMPP
-Framework                     : Tailwind CSS
+1. Jenis Aplikasi                : Website
+2. Alasan memilih aplikasi       : Dapat digunakan secara umum
+3. Sistem Operasi                : Windows 11
+4. Text Editor                   : VSCode
+5. Bahasa Pemrograman            : PHP
+6. DBMS                          : MySQL
+7. Web Server                    : XAMPP
+8. Framework                     : Tailwind CSS
 
 # Latar Belakang
 Dalam era digital seperti saat ini, manusia sering kali dihadapkan pada keterbatasan waktu untuk melakukan berbagai aktivitas sehari-hari, termasuk dalam merawat kendaraan pribadi. Kendaraan, baik mobil maupun motor, memerlukan perawatan rutin agar tetap dalam kondisi prima dan memiliki umur yang panjang. Keterbatasan waktu yang dimiliki oleh banyak orang menjadi salah satu alasan mengapa jasa cuci kendaraan diminati, sehingga mereka membutuhkan solusi praktis yang tidak hanya menghemat waktu, tetapi juga menjamin kualitas perawatan yang baik. Selain itu, terdapat kemudahan bagi mereka melalui layanan pemesanan online yang dapat memberikan kenyamanan ekstra bagi mereka yang memiliki mobilitas tinggi dan jadwal yang padat. 
