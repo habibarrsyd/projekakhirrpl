@@ -1,0 +1,23 @@
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.rating {
+    color: orange;
+}
+.user {
+    font-weight: bold;
+}
+.helpful {
+    margin-top: 10px;
+}
+.helpful label {
+    cursor: pointer;
+}
+.helpful input[type="checkbox"] {
+    display: none;
+}
+.helpful label:before {
+    content: "✅";
+}
