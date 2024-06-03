@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-image: url(../image/admin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+h1 {
+    font-size: 3em;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+.table-container {
+    width: 100%;
+    max-width: 1300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+a {
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #0056b3;
+}
+button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.table-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+.submit-button {
+    background-color: #28a745;
+    color: white;
+}
+.submit-button:hover {
+    background-color: #218838;
+}
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+.delete-button:hover {
+    background-color: #c82333;
+}
+.submit-placehold {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.btn-contain {
+    display: flex;
+    gap: 1em;
+    margin-top: 20px;
+}

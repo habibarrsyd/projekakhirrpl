@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    min-height:100%;
+    position:relative;
+}
+body {
+    background-image: url(../image/payment.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-block: 45px;
+    margin-inline: 40px;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    padding: 0 10px;
+    position: relative;
+    transition: 150ms ease-in-out;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 200px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+    text-align: left;
+    width: 50%;
+}
+
+.order-details {
+    background-color: rgba(255, 255, 255, 0.733); /* Slightly transparent background */
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 3px solid black;
+}
+
+.order-details li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.order-details li strong {
+    flex: 0 0 150px;
+    margin-right: 100px;
+}
+
+.order-details li span {
+    flex: 1;
+    text-align: left;
+    margin-left: 15px;
+}
+main a {
+    display: flex;
+    margin-top: 1.5em;
+    text-decoration: none;
+    background-color: #637CB5;
+    transition: 150ms ease-in-out;
+    padding: 10px 1em;
+    color: white;
+    border-radius: 15px;
+}
+main a:hover {
+    transform: scale(1.1);
+}
